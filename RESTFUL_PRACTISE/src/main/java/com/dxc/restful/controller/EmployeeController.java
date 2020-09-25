@@ -60,6 +60,7 @@ public class EmployeeController {
 	public List<Employee> findByEmployeeGreaterThan(@PathVariable("salary") double salary){
 		return service.findBySalaryGreaterThan(salary);
 	}
+	
 
 	/*
 	 * @GetMapping(path = "/ltsalary/{salary}") public List<Employee>
